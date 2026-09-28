@@ -1,0 +1,791 @@
+{
+  "url": "https://en.wikipedia.org/wiki/Main_Page",
+  "title": "Wikipedia, the free encyclopedia",
+  "site": "wikipedia",
+  "scrollY": 0,
+  "scrollHeight": 3962,
+  "viewportHeight": 900,
+  "searchBoxId": "e02",
+  "elements": [
+    {
+      "id": "e02",
+      "role": "searchbox",
+      "text": "Search Wikipedia"
+    },
+    {
+      "id": "e03",
+      "role": "button",
+      "text": "Search"
+    },
+    {
+      "id": "e04",
+      "role": "link",
+      "text": "Donate",
+      "href": "donate.wikimedia.org"
+    },
+    {
+      "id": "e05",
+      "role": "link",
+      "text": "Create account",
+      "href": "en.wikipedia.org/w/index.php"
+    },
+    {
+      "id": "e06",
+      "role": "link",
+      "text": "Log in",
+      "href": "en.wikipedia.org/w/index.php"
+    },
+    {
+      "id": "e07",
+      "role": "link",
+      "text": "WIKI loves monuments Photograph a monument, help Wikipedia…",
+      "href": "de.wikipedia.org/wiki/Wikipedia:Wiki_Loves_Monume…"
+    },
+    {
+      "id": "e08",
+      "role": "link",
+      "text": "Hide",
+      "href": "en.wikipedia.org/wiki/Main_Page"
+    },
+    {
+      "id": "e09",
+      "role": "link",
+      "text": "Main Page",
+      "href": "en.wikipedia.org/wiki/Main_Page"
+    },
+    {
+      "id": "e10",
+      "role": "link",
+      "text": "Talk",
+      "href": "en.wikipedia.org/wiki/Talk:Main_Page"
+    },
+    {
+      "id": "e11",
+      "role": "link",
+      "text": "Read",
+      "href": "en.wikipedia.org/wiki/Main_Page"
+    },
+    {
+      "id": "e12",
+      "role": "link",
+      "text": "View source",
+      "href": "en.wikipedia.org/w/index.php"
+    },
+    {
+      "id": "e13",
+      "role": "link",
+      "text": "View history",
+      "href": "en.wikipedia.org/w/index.php"
+    },
+    {
+      "id": "e14",
+      "role": "button",
+      "text": "Hide Appearance"
+    },
+    {
+      "id": "e15",
+      "role": "link",
+      "text": "Wikipedia",
+      "href": "en.wikipedia.org/wiki/Wikipedia"
+    },
+    {
+      "id": "e16",
+      "role": "link",
+      "text": "free",
+      "href": "en.wikipedia.org/wiki/Free_content"
+    },
+    {
+      "id": "e17",
+      "role": "link",
+      "text": "anyone can edit",
+      "href": "en.wikipedia.org/wiki/Help:Introduction_to_Wikipe…"
+    },
+    {
+      "id": "e18",
+      "role": "link",
+      "text": "262,745",
+      "href": "en.wikipedia.org/wiki/Special:Statistics"
+    },
+    {
+      "id": "e19",
+      "role": "link",
+      "text": "7,240,688",
+      "href": "en.wikipedia.org/wiki/Special:Statistics"
+    },
+    {
+      "id": "e20",
+      "role": "link",
+      "text": "English",
+      "href": "en.wikipedia.org/wiki/English_language"
+    },
+    {
+      "id": "e22",
+      "role": "link",
+      "text": "Eternal Blue",
+      "href": "en.wikipedia.org/wiki/Eternal_Blue_(album)"
+    },
+    {
+      "id": "e61",
+      "role": "link",
+      "text": "A ferry sinks",
+      "href": "en.wikipedia.org/wiki/Sinking_of_the_Virgo_Transp…"
+    },
+    {
+      "id": "e62",
+      "role": "link",
+      "text": "Java Sea",
+      "href": "en.wikipedia.org/wiki/Java_Sea"
+    },
+    {
+      "id": "e23",
+      "role": "link",
+      "text": "heavy-metal",
+      "href": "en.wikipedia.org/wiki/Heavy_metal_music"
+    },
+    {
+      "id": "e24",
+      "role": "link",
+      "text": "Spiritbox",
+      "href": "en.wikipedia.org/wiki/Spiritbox"
+    },
+    {
+      "id": "e60",
+      "role": "link",
+      "text": "KM Virgo Transport 8",
+      "href": "en.wikipedia.org/wiki/File:KM_Virgo_Transport_8_a…"
+    },
+    {
+      "id": "e25",
+      "role": "link",
+      "text": "Rise Records",
+      "href": "en.wikipedia.org/wiki/Rise_Records"
+    },
+    {
+      "id": "e26",
+      "role": "link",
+      "text": "Courtney LaPlante",
+      "href": "en.wikipedia.org/wiki/Courtney_LaPlante"
+    },
+    {
+      "id": "e21",
+      "role": "link",
+      "text": "Courtney LaPlante",
+      "href": "en.wikipedia.org/wiki/File:Spiritbox_-_Rock_am_Ri…"
+    },
+    {
+      "id": "e63",
+      "role": "link",
+      "text": "A ferry fire",
+      "href": "en.wikipedia.org/wiki/MV_June_Aster_ship_fire"
+    },
+    {
+      "id": "e64",
+      "role": "link",
+      "text": "Coron, Palawan",
+      "href": "en.wikipedia.org/wiki/Coron,_Palawan"
+    },
+    {
+      "id": "e27",
+      "role": "link",
+      "text": "Iwrestledabearonce",
+      "href": "en.wikipedia.org/wiki/Iwrestledabearonce"
+    },
+    {
+      "id": "e65",
+      "role": "link",
+      "text": "heavy fighting",
+      "href": "en.wikipedia.org/wiki/2026_Yemen_offensives"
+    },
+    {
+      "id": "e66",
+      "role": "link",
+      "text": "Houthis",
+      "href": "en.wikipedia.org/wiki/Houthis"
+    },
+    {
+      "id": "e67",
+      "role": "link",
+      "text": "Presidential Leadership Council",
+      "href": "en.wikipedia.org/wiki/Presidential_Leadership_Cou…"
+    },
+    {
+      "id": "e28",
+      "role": "link",
+      "text": "COVID-19 pandemic",
+      "href": "en.wikipedia.org/wiki/COVID-19_pandemic"
+    },
+    {
+      "id": "e68",
+      "role": "link",
+      "text": "Gloria Steinem",
+      "href": "en.wikipedia.org/wiki/Gloria_Steinem"
+    },
+    {
+      "id": "e29",
+      "role": "link",
+      "text": "Slipknot",
+      "href": "en.wikipedia.org/wiki/Slipknot_(band)"
+    },
+    {
+      "id": "e69",
+      "role": "link",
+      "text": "Iran war",
+      "href": "en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    {
+      "id": "e70",
+      "role": "link",
+      "text": "Lebanon war",
+      "href": "en.wikipedia.org/wiki/2026_Lebanon_war"
+    },
+    {
+      "id": "e71",
+      "role": "link",
+      "text": "Russo-Ukrainian war",
+      "href": "en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E…"
+    },
+    {
+      "id": "e30",
+      "role": "link",
+      "text": "Deftones",
+      "href": "en.wikipedia.org/wiki/Deftones"
+    },
+    {
+      "id": "e31",
+      "role": "link",
+      "text": "Depeche Mode",
+      "href": "en.wikipedia.org/wiki/Depeche_Mode"
+    },
+    {
+      "id": "e32",
+      "role": "link",
+      "text": "Tears for Fears",
+      "href": "en.wikipedia.org/wiki/Tears_for_Fears"
+    },
+    {
+      "id": "e72",
+      "role": "link",
+      "text": "timeline",
+      "href": "en.wikipedia.org/wiki/Timeline_of_the_Russo-Ukrai…"
+    },
+    {
+      "id": "e73",
+      "role": "link",
+      "text": "Recent deaths",
+      "href": "en.wikipedia.org/wiki/Deaths_in_2026"
+    },
+    {
+      "id": "e75",
+      "role": "link",
+      "text": "Barry Melrose",
+      "href": "en.wikipedia.org/wiki/Barry_Melrose"
+    },
+    {
+      "id": "e74",
+      "role": "link",
+      "text": "Princess Astrid, Mrs. Ferner",
+      "href": "en.wikipedia.org/wiki/Princess_Astrid,_Mrs._Ferner"
+    },
+    {
+      "id": "e76",
+      "role": "link",
+      "text": "Amelinha Teles",
+      "href": "en.wikipedia.org/wiki/Amelinha_Teles"
+    },
+    {
+      "id": "e77",
+      "role": "link",
+      "text": "Paul Butzer",
+      "href": "en.wikipedia.org/wiki/Paul_Butzer"
+    },
+    {
+      "id": "e78",
+      "role": "link",
+      "text": "María Toto",
+      "href": "en.wikipedia.org/wiki/Mar%C3%ADa_Toto"
+    },
+    {
+      "id": "e79",
+      "role": "link",
+      "text": "Luděk Mikloško",
+      "href": "en.wikipedia.org/wiki/Lud%C4%9Bk_Miklo%C5%A1ko"
+    },
+    {
+      "id": "e33",
+      "role": "link",
+      "text": "Circle with Me",
+      "href": "en.wikipedia.org/wiki/Circle_with_Me"
+    },
+    {
+      "id": "e80",
+      "role": "link",
+      "text": "More current events",
+      "href": "en.wikipedia.org/wiki/Portal:Current_events"
+    },
+    {
+      "id": "e81",
+      "role": "link",
+      "text": "Nominate an article",
+      "href": "en.wikipedia.org/wiki/Wikipedia:In_the_news/Candi…"
+    },
+    {
+      "id": "e34",
+      "role": "link",
+      "text": "Full article...",
+      "href": "en.wikipedia.org/wiki/Eternal_Blue_(album)"
+    },
+    {
+      "id": "e35",
+      "role": "link",
+      "text": "Grace Coolidge",
+      "href": "en.wikipedia.org/wiki/Grace_Coolidge"
+    },
+    {
+      "id": "e36",
+      "role": "link",
+      "text": "Menches",
+      "href": "en.wikipedia.org/wiki/Menches"
+    },
+    {
+      "id": "e37",
+      "role": "link",
+      "text": "Melisende of Jerusalem",
+      "href": "en.wikipedia.org/wiki/Melisende_of_Jerusalem"
+    },
+    {
+      "id": "e38",
+      "role": "link",
+      "text": "Archive",
+      "href": "en.wikipedia.org/wiki/Wikipedia:Today's_featured_…",
+      "below_fold": true
+    },
+    {
+      "id": "e39",
+      "role": "link",
+      "text": "By email",
+      "href": "lists.wikimedia.org/postorius/lists/daily-article…",
+      "below_fold": true
+    },
+    {
+      "id": "e40",
+      "role": "link",
+      "text": "More featured articles",
+      "href": "en.wikipedia.org/wiki/Wikipedia:Featured_articles…",
+      "below_fold": true
+    },
+    {
+      "id": "e41",
+      "role": "link",
+      "text": "About",
+      "href": "en.wikipedia.org/wiki/Wikipedia:About_Today's_fea…",
+      "below_fold": true
+    },
+    {
+      "id": "e82",
+      "role": "link",
+      "text": "September 17",
+      "href": "en.wikipedia.org/wiki/September_17",
+      "below_fold": true
+    },
+    {
+      "id": "e83",
+      "role": "link",
+      "text": "Constitution Day and Citizenship Day",
+      "href": "en.wikipedia.org/wiki/Constitution_Day_and_Citize…",
+      "below_fold": true
+    },
+    {
+      "id": "e85",
+      "role": "link",
+      "text": "1382",
+      "href": "en.wikipedia.org/wiki/1382",
+      "below_fold": true
+    },
+    {
+      "id": "e86",
+      "role": "link",
+      "text": "Louis I",
+      "href": "en.wikipedia.org/wiki/Louis_I_of_Hungary",
+      "below_fold": true
+    },
+    {
+      "id": "e43",
+      "role": "link",
+      "text": "Tropical Storm Polly",
+      "href": "en.wikipedia.org/wiki/Tropical_Storm_Polly_(1992)",
+      "below_fold": true
+    },
+    {
+      "id": "e87",
+      "role": "link",
+      "text": "Mary",
+      "href": "en.wikipedia.org/wiki/Mary,_Queen_of_Hungary",
+      "below_fold": true
+    },
+    {
+      "id": "e84",
+      "role": "link",
+      "text": "Harriet Tubman",
+      "href": "en.wikipedia.org/wiki/File:Harriet_Tubman_(circa_…",
+      "below_fold": true
+    },
+    {
+      "id": "e42",
+      "role": "link",
+      "text": "Tropical Storm Polly",
+      "href": "en.wikipedia.org/wiki/File:Polly_Aug_29_1992_0900…",
+      "below_fold": true
+    },
+    {
+      "id": "e44",
+      "role": "link",
+      "text": "al-Nour al-Qubba",
+      "href": "en.wikipedia.org/wiki/Al-Nour_al-Qubba",
+      "below_fold": true
+    },
+    {
+      "id": "e88",
+      "role": "link",
+      "text": "1849",
+      "href": "en.wikipedia.org/wiki/1849",
+      "below_fold": true
+    },
+    {
+      "id": "e89",
+      "role": "link",
+      "text": "Harriet Tubman",
+      "href": "en.wikipedia.org/wiki/Harriet_Tubman",
+      "below_fold": true
+    },
+    {
+      "id": "e45",
+      "role": "link",
+      "text": "Abdel Fattah al-Burhan",
+      "href": "en.wikipedia.org/wiki/Abdel_Fattah_al-Burhan",
+      "below_fold": true
+    },
+    {
+      "id": "e90",
+      "role": "link",
+      "text": "Maryland",
+      "href": "en.wikipedia.org/wiki/Maryland",
+      "below_fold": true
+    },
+    {
+      "id": "e46",
+      "role": "link",
+      "text": "The Maine Woods",
+      "href": "en.wikipedia.org/wiki/The_Maine_Woods",
+      "below_fold": true
+    },
+    {
+      "id": "e91",
+      "role": "link",
+      "text": "Underground Railroad",
+      "href": "en.wikipedia.org/wiki/Underground_Railroad",
+      "below_fold": true
+    },
+    {
+      "id": "e47",
+      "role": "link",
+      "text": "Günter Bannas",
+      "href": "en.wikipedia.org/wiki/G%C3%BCnter_Bannas",
+      "below_fold": true
+    },
+    {
+      "id": "e92",
+      "role": "link",
+      "text": "1939",
+      "href": "en.wikipedia.org/wiki/1939",
+      "below_fold": true
+    },
+    {
+      "id": "e94",
+      "role": "link",
+      "text": "invaded Poland from the east",
+      "href": "en.wikipedia.org/wiki/Soviet_invasion_of_Poland",
+      "below_fold": true
+    },
+    {
+      "id": "e93",
+      "role": "link",
+      "text": "World War II",
+      "href": "en.wikipedia.org/wiki/World_War_II",
+      "below_fold": true
+    },
+    {
+      "id": "e48",
+      "role": "link",
+      "text": "Frankfurter Allgemeine Zeitung",
+      "href": "en.wikipedia.org/wiki/Frankfurter_Allgemeine_Zeit…",
+      "below_fold": true
+    },
+    {
+      "id": "e95",
+      "role": "link",
+      "text": "Nazi Germany's attack on the country from the west",
+      "href": "en.wikipedia.org/wiki/Invasion_of_Poland",
+      "below_fold": true
+    },
+    {
+      "id": "e49",
+      "role": "link",
+      "text": "Burima Fireworks",
+      "href": "en.wikipedia.org/wiki/Burima_Fireworks",
+      "below_fold": true
+    },
+    {
+      "id": "e96",
+      "role": "link",
+      "text": "1962",
+      "href": "en.wikipedia.org/wiki/1962",
+      "below_fold": true
+    },
+    {
+      "id": "e97",
+      "role": "link",
+      "text": "NASA",
+      "href": "en.wikipedia.org/wiki/NASA",
+      "below_fold": true
+    },
+    {
+      "id": "e98",
+      "role": "link",
+      "text": "Next Nine",
+      "href": "en.wikipedia.org/wiki/NASA_Astronaut_Group_2",
+      "below_fold": true
+    },
+    {
+      "id": "e99",
+      "role": "link",
+      "text": "landing on the Moon",
+      "href": "en.wikipedia.org/wiki/Moon_landing",
+      "below_fold": true
+    },
+    {
+      "id": "e50",
+      "role": "link",
+      "text": "Shelly-Ann Cox",
+      "href": "en.wikipedia.org/wiki/Shelly-Ann_Cox",
+      "below_fold": true
+    },
+    {
+      "id": "e100",
+      "role": "link",
+      "text": "2008",
+      "href": "en.wikipedia.org/wiki/2008",
+      "below_fold": true
+    },
+    {
+      "id": "e102",
+      "role": "link",
+      "text": "attacked the United States embassy",
+      "href": "en.wikipedia.org/wiki/2008_attack_on_the_United_S…",
+      "below_fold": true
+    },
+    {
+      "id": "e101",
+      "role": "link",
+      "text": "al-Qaeda",
+      "href": "en.wikipedia.org/wiki/Al-Qaeda_in_Yemen",
+      "below_fold": true
+    },
+    {
+      "id": "e51",
+      "role": "link",
+      "text": "Hurricane Beryl",
+      "href": "en.wikipedia.org/wiki/Hurricane_Beryl",
+      "below_fold": true
+    },
+    {
+      "id": "e103",
+      "role": "link",
+      "text": "Sanaa",
+      "href": "en.wikipedia.org/wiki/Sanaa",
+      "below_fold": true
+    },
+    {
+      "id": "e53",
+      "role": "link",
+      "text": "Cyclone Mekunu",
+      "href": "en.wikipedia.org/wiki/Cyclone_Mekunu",
+      "below_fold": true
+    },
+    {
+      "id": "e52",
+      "role": "link",
+      "text": "MV Jernas",
+      "href": "en.wikipedia.org/wiki/MV_Jernas",
+      "below_fold": true
+    },
+    {
+      "id": "e104",
+      "role": "link",
+      "text": "Li Jingsui",
+      "href": "en.wikipedia.org/wiki/Li_Jingsui",
+      "below_fold": true
+    },
+    {
+      "id": "e105",
+      "role": "link",
+      "text": "Stephen Hales",
+      "href": "en.wikipedia.org/wiki/Stephen_Hales",
+      "below_fold": true
+    },
+    {
+      "id": "e106",
+      "role": "link",
+      "text": "Arne Slot",
+      "href": "en.wikipedia.org/wiki/Arne_Slot",
+      "below_fold": true
+    },
+    {
+      "id": "e107",
+      "role": "link",
+      "text": "Red Skelton",
+      "href": "en.wikipedia.org/wiki/Red_Skelton",
+      "below_fold": true
+    },
+    {
+      "id": "e54",
+      "role": "link",
+      "text": "Thomas Yenser",
+      "href": "en.wikipedia.org/wiki/Thomas_Yenser",
+      "below_fold": true
+    },
+    {
+      "id": "e108",
+      "role": "link",
+      "text": "September 16",
+      "href": "en.wikipedia.org/wiki/September_16",
+      "below_fold": true
+    },
+    {
+      "id": "e110",
+      "role": "link",
+      "text": "September 18",
+      "href": "en.wikipedia.org/wiki/September_18",
+      "below_fold": true
+    },
+    {
+      "id": "e55",
+      "role": "link",
+      "text": "Who's Who in Colored America",
+      "href": "en.wikipedia.org/wiki/Who's_Who_in_Colored_America",
+      "below_fold": true
+    },
+    {
+      "id": "e111",
+      "role": "link",
+      "text": "Archive",
+      "href": "en.wikipedia.org/wiki/Wikipedia:Selected_annivers…",
+      "below_fold": true
+    },
+    {
+      "id": "e113",
+      "role": "link",
+      "text": "List of days of the year",
+      "href": "en.wikipedia.org/wiki/List_of_days_of_the_year",
+      "below_fold": true
+    },
+    {
+      "id": "e114",
+      "role": "link",
+      "text": "About",
+      "href": "en.wikipedia.org/wiki/Wikipedia:Selected_annivers…",
+      "below_fold": true
+    },
+    {
+      "id": "e56",
+      "role": "link",
+      "text": "Dolly Parton was a gay icon",
+      "href": "en.wikipedia.org/wiki/Dolly_Parton_as_a_gay_icon",
+      "below_fold": true
+    },
+    {
+      "id": "e57",
+      "role": "link",
+      "text": "Archive",
+      "href": "en.wikipedia.org/wiki/Wikipedia:Did_you_know_arch…",
+      "below_fold": true
+    },
+    {
+      "id": "e58",
+      "role": "link",
+      "text": "Start a new article",
+      "href": "en.wikipedia.org/wiki/Help:Your_first_article",
+      "below_fold": true
+    },
+    {
+      "id": "e59",
+      "role": "link",
+      "text": "Nominate an article",
+      "href": "en.wikipedia.org/wiki/Template_talk:Did_you_know",
+      "below_fold": true
+    },
+    {
+      "id": "e115",
+      "role": "link",
+      "text": "Space Shuttle Enterprise",
+      "href": "en.wikipedia.org/wiki/File:The_Shuttle_Enterprise…",
+      "below_fold": true
+    },
+    {
+      "id": "e116",
+      "role": "link",
+      "text": "Space Shuttle Enterprise",
+      "href": "en.wikipedia.org/wiki/Space_Shuttle_Enterprise",
+      "below_fold": true
+    },
+    {
+      "id": "e117",
+      "role": "link",
+      "text": "orbiter",
+      "href": "en.wikipedia.org/wiki/Space_Shuttle_orbiter",
+      "below_fold": true
+    },
+    {
+      "id": "e118",
+      "role": "link",
+      "text": "Space Shuttle program",
+      "href": "en.wikipedia.org/wiki/Space_Shuttle_program",
+      "below_fold": true
+    },
+    {
+      "id": "e119",
+      "role": "link",
+      "text": "Rockwell International",
+      "href": "en.wikipedia.org/wiki/Rockwell_International",
+      "below_fold": true
+    },
+    {
+      "id": "e121",
+      "role": "link",
+      "text": "Star Trek",
+      "href": "en.wikipedia.org/wiki/Star_Trek",
+      "below_fold": true
+    },
+    {
+      "id": "e122",
+      "role": "link",
+      "text": "USS Enterprise",
+      "href": "en.wikipedia.org/wiki/USS_Enterprise_(NCC-1701)",
+      "below_fold": true
+    },
+    {
+      "id": "e123",
+      "role": "link",
+      "text": "USS Enterprise",
+      "href": "en.wikipedia.org/wiki/USS_Enterprise_(CV-6)",
+      "below_fold": true
+    },
+    {
+      "id": "e124",
+      "role": "link",
+      "text": "Boeing 747",
+      "href": "en.wikipedia.org/wiki/Boeing_747",
+      "below_fold": true
+    }
+  ],
+  "rawCount": 244
+}

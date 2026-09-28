@@ -1,0 +1,25 @@
+{
+  "name": "jev-voice-browser-zh",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Control a real browser by voice. Jev (TypeSafe System One) decides intent/target in ~100-300 ms; Playwright executes.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "demo": "node scripts/demo.js",
+    "demo:ci": "node scripts/demo.js --headless",
+    "test": "node --test \"test/unit/**/*.test.js\"",
+    "test:integration": "node --test \"test/integration/**/*.test.js\"",
+    "test:all": "node --test \"test/unit/**/*.test.js\" \"test/integration/**/*.test.js\""
+  },
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.6.0",
+    "express": "^4.19.2",
+    "playwright": "^1.47.0",
+    "ws": "^8.18.0"
+  },
+  "license": "MIT"
+}

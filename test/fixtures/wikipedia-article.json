@@ -1,0 +1,775 @@
+{
+  "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+  "title": "Alan Turing - Wikipedia",
+  "site": "wikipedia",
+  "scrollY": 0,
+  "scrollHeight": 38431,
+  "viewportHeight": 900,
+  "searchBoxId": "e02",
+  "elements": [
+    {
+      "id": "e02",
+      "role": "searchbox",
+      "text": "Search Wikipedia"
+    },
+    {
+      "id": "e03",
+      "role": "button",
+      "text": "Search"
+    },
+    {
+      "id": "e04",
+      "role": "link",
+      "text": "Donate",
+      "href": "donate.wikimedia.org"
+    },
+    {
+      "id": "e05",
+      "role": "link",
+      "text": "Create account",
+      "href": "en.wikipedia.org/w/index.php"
+    },
+    {
+      "id": "e06",
+      "role": "link",
+      "text": "Log in",
+      "href": "en.wikipedia.org/w/index.php"
+    },
+    {
+      "id": "e07",
+      "role": "link",
+      "text": "WIKI loves monuments Photograph a monument, help Wikipedia…",
+      "href": "de.wikipedia.org/wiki/Wikipedia:Wiki_Loves_Monume…"
+    },
+    {
+      "id": "e08",
+      "role": "link",
+      "text": "Hide",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e27",
+      "role": "link",
+      "text": "Article",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e28",
+      "role": "link",
+      "text": "Talk",
+      "href": "en.wikipedia.org/wiki/Talk:Alan_Turing"
+    },
+    {
+      "id": "e29",
+      "role": "link",
+      "text": "Read",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e30",
+      "role": "link",
+      "text": "View source",
+      "href": "en.wikipedia.org/w/index.php"
+    },
+    {
+      "id": "e31",
+      "role": "link",
+      "text": "View history",
+      "href": "en.wikipedia.org/w/index.php"
+    },
+    {
+      "id": "e09",
+      "role": "button",
+      "text": "Hide Contents"
+    },
+    {
+      "id": "e32",
+      "role": "button",
+      "text": "Hide Appearance"
+    },
+    {
+      "id": "e10",
+      "role": "link",
+      "text": "(Top)",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e33",
+      "role": "link",
+      "text": "This is a good article. Click here for more information.",
+      "href": "en.wikipedia.org/wiki/Wikipedia:Good_articles*"
+    },
+    {
+      "id": "e34",
+      "role": "link",
+      "text": "This article is semi-protected.",
+      "href": "en.wikipedia.org/wiki/Wikipedia:Protection_policy"
+    },
+    {
+      "id": "e11",
+      "role": "link",
+      "text": "Early life and education",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e12",
+      "role": "button",
+      "text": "Toggle Early life and education subsection"
+    },
+    {
+      "id": "e35",
+      "role": "link",
+      "text": "Alan Turing (sculpture)",
+      "href": "en.wikipedia.org/wiki/Alan_Turing_(sculpture)"
+    },
+    {
+      "id": "e13",
+      "role": "link",
+      "text": "Career and research",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e14",
+      "role": "button",
+      "text": "Toggle Career and research subsection"
+    },
+    {
+      "id": "e36",
+      "role": "link",
+      "text": "Turing (disambiguation)",
+      "href": "en.wikipedia.org/wiki/Turing_(disambiguation)"
+    },
+    {
+      "id": "e15",
+      "role": "link",
+      "text": "Personal life",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e16",
+      "role": "button",
+      "text": "Toggle Personal life subsection"
+    },
+    {
+      "id": "e77",
+      "role": "link",
+      "text": "/ˈtjʊərɪŋ/",
+      "href": "en.wikipedia.org/wiki/Help:IPA/English"
+    },
+    {
+      "id": "e17",
+      "role": "link",
+      "text": "Death",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e18",
+      "role": "button",
+      "text": "Toggle Death subsection"
+    },
+    {
+      "id": "e78",
+      "role": "link",
+      "text": "computer scientist",
+      "href": "en.wikipedia.org/wiki/Computer_scientist"
+    },
+    {
+      "id": "e37",
+      "role": "link",
+      "text": "OBE",
+      "href": "en.wikipedia.org/wiki/Officer_of_the_Order_of_the…"
+    },
+    {
+      "id": "e38",
+      "role": "link",
+      "text": "FRS",
+      "href": "en.wikipedia.org/wiki/Fellow_of_the_Royal_Society"
+    },
+    {
+      "id": "e19",
+      "role": "link",
+      "text": "Government apology and pardon",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e79",
+      "role": "link",
+      "text": "logician",
+      "href": "en.wikipedia.org/wiki/Logic"
+    },
+    {
+      "id": "e81",
+      "role": "link",
+      "text": "theoretical biologist",
+      "href": "en.wikipedia.org/wiki/Theoretical_biologist"
+    },
+    {
+      "id": "e80",
+      "role": "link",
+      "text": "cryptanalyst",
+      "href": "en.wikipedia.org/wiki/Cryptanalyst"
+    },
+    {
+      "id": "e82",
+      "role": "link",
+      "text": "[6]",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e20",
+      "role": "link",
+      "text": "Further reading",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e21",
+      "role": "button",
+      "text": "Toggle Further reading subsection"
+    },
+    {
+      "id": "e83",
+      "role": "link",
+      "text": "theoretical computer science",
+      "href": "en.wikipedia.org/wiki/Theoretical_computer_science"
+    },
+    {
+      "id": "e22",
+      "role": "link",
+      "text": "See also",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e23",
+      "role": "button",
+      "text": "Toggle See also subsection"
+    },
+    {
+      "id": "e86",
+      "role": "link",
+      "text": "Turing machine",
+      "href": "en.wikipedia.org/wiki/Turing_machine"
+    },
+    {
+      "id": "e84",
+      "role": "link",
+      "text": "algorithm",
+      "href": "en.wikipedia.org/wiki/Algorithm"
+    },
+    {
+      "id": "e85",
+      "role": "link",
+      "text": "computation",
+      "href": "en.wikipedia.org/wiki/Computation"
+    },
+    {
+      "id": "e24",
+      "role": "link",
+      "text": "Notes",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e25",
+      "role": "link",
+      "text": "References",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e87",
+      "role": "link",
+      "text": "[7]",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e88",
+      "role": "link",
+      "text": "[8]",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e89",
+      "role": "link",
+      "text": "[9]",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e26",
+      "role": "link",
+      "text": "External links",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e90",
+      "role": "link",
+      "text": "[10]",
+      "href": "en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "id": "e91",
+      "role": "link",
+      "text": "southern England",
+      "href": "en.wikipedia.org/wiki/Southern_England"
+    },
+    {
+      "id": "e92",
+      "role": "link",
+      "text": "King's College, Cambridge",
+      "href": "en.wikipedia.org/wiki/University_of_Cambridge"
+    },
+    {
+      "id": "e93",
+      "role": "link",
+      "text": "Princeton University",
+      "href": "en.wikipedia.org/wiki/Princeton_University"
+    },
+    {
+      "id": "e94",
+      "role": "link",
+      "text": "World War II",
+      "href": "en.wikipedia.org/wiki/World_War_II"
+    },
+    {
+      "id": "e95",
+      "role": "link",
+      "text": "Government Code and Cypher School",
+      "href": "en.wikipedia.org/wiki/Government_Code_and_Cypher_…"
+    },
+    {
+      "id": "e96",
+      "role": "link",
+      "text": "Bletchley Park",
+      "href": "en.wikipedia.org/wiki/Bletchley_Park"
+    },
+    {
+      "id": "e97",
+      "role": "link",
+      "text": "codebreaking",
+      "href": "en.wikipedia.org/wiki/Codebreaking"
+    },
+    {
+      "id": "e98",
+      "role": "link",
+      "text": "Ultra",
+      "href": "en.wikipedia.org/wiki/Ultra_(cryptography)"
+    },
+    {
+      "id": "e99",
+      "role": "link",
+      "text": "Hut 8",
+      "href": "en.wikipedia.org/wiki/Hut_8"
+    },
+    {
+      "id": "e100",
+      "role": "link",
+      "text": "ciphers",
+      "href": "en.wikipedia.org/wiki/Cipher"
+    },
+    {
+      "id": "e40",
+      "role": "link",
+      "text": "Maida Vale",
+      "href": "en.wikipedia.org/wiki/Maida_Vale"
+    },
+    {
+      "id": "e101",
+      "role": "link",
+      "text": "bomba",
+      "href": "en.wikipedia.org/wiki/Bomba_(cryptography)"
+    },
+    {
+      "id": "e102",
+      "role": "link",
+      "text": "electromechanical",
+      "href": "en.wikipedia.org/wiki/Electromechanical"
+    },
+    {
+      "id": "e41",
+      "role": "link",
+      "text": "Wilmslow",
+      "href": "en.wikipedia.org/wiki/Wilmslow"
+    },
+    {
+      "id": "e103",
+      "role": "link",
+      "text": "Enigma machine",
+      "href": "en.wikipedia.org/wiki/Enigma_machine"
+    },
+    {
+      "id": "e42",
+      "role": "link",
+      "text": "cyanide poisoning",
+      "href": "en.wikipedia.org/wiki/Cyanide_poisoning"
+    },
+    {
+      "id": "e43",
+      "role": "link",
+      "text": "[note 1]",
+      "href": "en.wikipedia.org/wiki/Alan_Turing",
+      "below_fold": true
+    },
+    {
+      "id": "e104",
+      "role": "link",
+      "text": "Allies",
+      "href": "en.wikipedia.org/wiki/Allies_of_World_War_2",
+      "below_fold": true
+    },
+    {
+      "id": "e105",
+      "role": "link",
+      "text": "Axis powers",
+      "href": "en.wikipedia.org/wiki/Axis_powers",
+      "below_fold": true
+    },
+    {
+      "id": "e106",
+      "role": "link",
+      "text": "Battle of the Atlantic",
+      "href": "en.wikipedia.org/wiki/Battle_of_the_Atlantic",
+      "below_fold": true
+    },
+    {
+      "id": "e44",
+      "role": "link",
+      "text": "University of Cambridge",
+      "href": "en.wikipedia.org/wiki/University_of_Cambridge",
+      "below_fold": true
+    },
+    {
+      "id": "e45",
+      "role": "link",
+      "text": "MA",
+      "href": "en.wikipedia.org/wiki/Master_of_Arts_(Oxford,_Cam…",
+      "below_fold": true
+    },
+    {
+      "id": "e107",
+      "role": "link",
+      "text": "[11]",
+      "href": "en.wikipedia.org/wiki/Alan_Turing",
+      "below_fold": true
+    },
+    {
+      "id": "e108",
+      "role": "link",
+      "text": "[12]",
+      "href": "en.wikipedia.org/wiki/Alan_Turing",
+      "below_fold": true
+    },
+    {
+      "id": "e47",
+      "role": "link",
+      "text": "Cryptanalysis of the Enigma",
+      "href": "en.wikipedia.org/wiki/Cryptanalysis_of_the_Enigma",
+      "below_fold": true
+    },
+    {
+      "id": "e109",
+      "role": "link",
+      "text": "National Physical Laboratory",
+      "href": "en.wikipedia.org/wiki/National_Physical_Laborator…",
+      "below_fold": true
+    },
+    {
+      "id": "e48",
+      "role": "link",
+      "text": "Turing's proof",
+      "href": "en.wikipedia.org/wiki/Turing's_proof",
+      "below_fold": true
+    },
+    {
+      "id": "e110",
+      "role": "link",
+      "text": "Automatic Computing Engine",
+      "href": "en.wikipedia.org/wiki/Automatic_Computing_Engine",
+      "below_fold": true
+    },
+    {
+      "id": "e50",
+      "role": "link",
+      "text": "Turing test",
+      "href": "en.wikipedia.org/wiki/Turing_test",
+      "below_fold": true
+    },
+    {
+      "id": "e51",
+      "role": "link",
+      "text": "unorganised machine",
+      "href": "en.wikipedia.org/wiki/Unorganized_machine",
+      "below_fold": true
+    },
+    {
+      "id": "e53",
+      "role": "link",
+      "text": "Turing reduction",
+      "href": "en.wikipedia.org/wiki/Turing_reduction",
+      "below_fold": true
+    },
+    {
+      "id": "e52",
+      "role": "link",
+      "text": "Turing pattern",
+      "href": "en.wikipedia.org/wiki/Turing_pattern",
+      "below_fold": true
+    },
+    {
+      "id": "e112",
+      "role": "link",
+      "text": "Computing Machine Laboratory",
+      "href": "en.wikipedia.org/wiki/Computing_Machine_Laboratory",
+      "below_fold": true
+    },
+    {
+      "id": "e111",
+      "role": "link",
+      "text": "Max Newman",
+      "href": "en.wikipedia.org/wiki/Max_Newman",
+      "below_fold": true
+    },
+    {
+      "id": "e54",
+      "role": "link",
+      "text": "The Chemical Basis of Morphogenesis",
+      "href": "en.wikipedia.org/wiki/The_Chemical_Basis_of_Morph…",
+      "below_fold": true
+    },
+    {
+      "id": "e113",
+      "role": "link",
+      "text": "University of Manchester",
+      "href": "en.wikipedia.org/wiki/University_of_Manchester",
+      "below_fold": true
+    },
+    {
+      "id": "e55",
+      "role": "link",
+      "text": "Turing paradox",
+      "href": "en.wikipedia.org/wiki/Quantum_Zeno_effect",
+      "below_fold": true
+    },
+    {
+      "id": "e114",
+      "role": "link",
+      "text": "Manchester computers",
+      "href": "en.wikipedia.org/wiki/Manchester_computers",
+      "below_fold": true
+    },
+    {
+      "id": "e115",
+      "role": "link",
+      "text": "[13]",
+      "href": "en.wikipedia.org/wiki/Alan_Turing",
+      "below_fold": true
+    },
+    {
+      "id": "e56",
+      "role": "link",
+      "text": "Joan Clarke",
+      "href": "en.wikipedia.org/wiki/Joan_Clarke",
+      "below_fold": true
+    },
+    {
+      "id": "e116",
+      "role": "link",
+      "text": "mathematical biology",
+      "href": "en.wikipedia.org/wiki/Mathematical_biology",
+      "below_fold": true
+    },
+    {
+      "id": "e57",
+      "role": "link",
+      "text": "Smith's Prize",
+      "href": "en.wikipedia.org/wiki/Smith's_Prize",
+      "below_fold": true
+    },
+    {
+      "id": "e118",
+      "role": "link",
+      "text": "[14]",
+      "href": "en.wikipedia.org/wiki/Alan_Turing",
+      "below_fold": true
+    },
+    {
+      "id": "e119",
+      "role": "link",
+      "text": "[2]",
+      "href": "en.wikipedia.org/wiki/Alan_Turing",
+      "below_fold": true
+    },
+    {
+      "id": "e117",
+      "role": "link",
+      "text": "morphogenesis",
+      "href": "en.wikipedia.org/wiki/Morphogenesis",
+      "below_fold": true
+    },
+    {
+      "id": "e120",
+      "role": "link",
+      "text": "oscillating chemical reactions",
+      "href": "en.wikipedia.org/wiki/Chemical_oscillator",
+      "below_fold": true
+    },
+    {
+      "id": "e121",
+      "role": "link",
+      "text": "Belousov–Zhabotinsky reaction",
+      "href": "en.wikipedia.org/wiki/Belousov%E2%80%93Zhabotinsk…",
+      "below_fold": true
+    },
+    {
+      "id": "e58",
+      "role": "link",
+      "text": "Logic",
+      "href": "en.wikipedia.org/wiki/Logic",
+      "below_fold": true
+    },
+    {
+      "id": "e59",
+      "role": "link",
+      "text": "cryptanalysis",
+      "href": "en.wikipedia.org/wiki/Cryptanalysis",
+      "below_fold": true
+    },
+    {
+      "id": "e60",
+      "role": "link",
+      "text": "computer science",
+      "href": "en.wikipedia.org/wiki/Computer_science",
+      "below_fold": true
+    },
+    {
+      "id": "e61",
+      "role": "link",
+      "text": "mathematical and theoretical biology",
+      "href": "en.wikipedia.org/wiki/Mathematical_and_theoretica…",
+      "below_fold": true
+    },
+    {
+      "id": "e123",
+      "role": "link",
+      "text": "[15]",
+      "href": "en.wikipedia.org/wiki/Alan_Turing",
+      "below_fold": true
+    },
+    {
+      "id": "e122",
+      "role": "link",
+      "text": "Official Secrets Act",
+      "href": "en.wikipedia.org/wiki/Official_Secrets_Act_1939",
+      "below_fold": true
+    },
+    {
+      "id": "e124",
+      "role": "link",
+      "text": "homosexual acts",
+      "href": "en.wikipedia.org/wiki/Gross_indecency",
+      "below_fold": true
+    },
+    {
+      "id": "e125",
+      "role": "link",
+      "text": "chemical castration",
+      "href": "en.wikipedia.org/wiki/Chemical_castration",
+      "below_fold": true
+    },
+    {
+      "id": "e67",
+      "role": "link",
+      "text": "Systems of Logic Based on Ordinals",
+      "href": "web.archive.org/web/20121023103503/https://webspa…",
+      "below_fold": true
+    },
+    {
+      "id": "e66",
+      "role": "link",
+      "text": "Thesis",
+      "href": "en.wikipedia.org/wiki/Thesis",
+      "below_fold": true
+    },
+    {
+      "id": "e70",
+      "role": "link",
+      "text": "[3]",
+      "href": "en.wikipedia.org/wiki/Alan_Turing",
+      "below_fold": true
+    },
+    {
+      "id": "e68",
+      "role": "link",
+      "text": "Doctoral advisor",
+      "href": "en.wikipedia.org/wiki/Doctoral_advisor",
+      "below_fold": true
+    },
+    {
+      "id": "e69",
+      "role": "link",
+      "text": "Alonzo Church",
+      "href": "en.wikipedia.org/wiki/Alonzo_Church",
+      "below_fold": true
+    },
+    {
+      "id": "e127",
+      "role": "link",
+      "text": "[1]",
+      "href": "en.wikipedia.org/wiki/Alan_Turing",
+      "below_fold": true
+    },
+    {
+      "id": "e128",
+      "role": "link",
+      "text": "Gordon Brown",
+      "href": "en.wikipedia.org/wiki/Gordon_Brown",
+      "below_fold": true
+    },
+    {
+      "id": "e73",
+      "role": "link",
+      "text": "[4]",
+      "href": "en.wikipedia.org/wiki/Alan_Turing",
+      "below_fold": true
+    },
+    {
+      "id": "e71",
+      "role": "link",
+      "text": "Robin Gandy",
+      "href": "en.wikipedia.org/wiki/Robin_Gandy",
+      "below_fold": true
+    },
+    {
+      "id": "e129",
+      "role": "link",
+      "text": "official public apology",
+      "href": "en.wikipedia.org/wiki/Alan_Turing",
+      "below_fold": true
+    },
+    {
+      "id": "e75",
+      "role": "link",
+      "text": "[5]",
+      "href": "en.wikipedia.org/wiki/Alan_Turing",
+      "below_fold": true
+    },
+    {
+      "id": "e74",
+      "role": "link",
+      "text": "Beatrice Worsley",
+      "href": "en.wikipedia.org/wiki/Beatrice_Worsley",
+      "below_fold": true
+    },
+    {
+      "id": "e130",
+      "role": "link",
+      "text": "Queen Elizabeth II",
+      "href": "en.wikipedia.org/wiki/Queen_Elizabeth_II",
+      "below_fold": true
+    },
+    {
+      "id": "e131",
+      "role": "link",
+      "text": "pardon",
+      "href": "en.wikipedia.org/wiki/Royal_prerogative_of_mercy",
+      "below_fold": true
+    }
+  ],
+  "rawCount": 400
+}

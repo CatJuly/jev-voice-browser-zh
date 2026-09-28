@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<title>jev-voice-browser-zh · Jev 控制台</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root{
+    --bg:#0b0f17;--panel:#111827;--panel2:#0f172a;--line:#1f2937;--text:#e5e7eb;--muted:#9ca3af;
+    --accent:#f59e0b;--blue:#3b82f6;--green:#22c55e;--red:#ef4444;--purple:#a78bfa;
+    font-family:ui-sans-serif,-apple-system,"Segoe UI",Inter,Roboto,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-size:14px;line-height:1.4}
+  header{display:flex;align-items:center;gap:18px;padding:12px 20px;border-bottom:1px solid var(--line);background:var(--panel)}
+  header h1{font-size:16px;margin:0;font-weight:700;letter-spacing:.2px}
+  header h1 span{color:var(--accent)}
+  .pill{font-size:12px;padding:3px 9px;border-radius:999px;background:var(--panel2);border:1px solid var(--line);color:var(--muted);font-variant-numeric:tabular-nums}
+  .pill b{color:var(--text)}
+  .spacer{flex:1}
+  main{display:grid;grid-template-columns:1.1fr 1.3fr 1fr;gap:12px;padding:12px 16px;height:calc(100vh - 54px)}
+  .col{display:flex;flex-direction:column;gap:12px;min-height:0}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;min-height:0;display:flex;flex-direction:column}
+  .card h2{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin:0 0 8px;font-weight:600;display:flex;align-items:center;gap:8px}
+  .card h2 .r{margin-left:auto;font-weight:400;text-transform:none;letter-spacing:0}
+  .grow{flex:1;overflow:auto}
+  #transcript{font-size:26px;font-weight:600;min-height:72px;line-height:1.25;word-break:break-word}
+  #transcript.acted{color:var(--green)}
+  #transcript .interim{color:var(--muted);font-weight:400}
+  .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  button{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:8px 12px;font-weight:600;cursor:pointer}
+  button:hover{border-color:#374151}
+  button.primary{background:var(--accent);color:#111;border-color:var(--accent)}
+  button.danger{border-color:var(--red);color:var(--red)}
+  input[type=text]{flex:1;background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:9px 12px;font-size:14px}
+  .bar{display:grid;grid-template-columns:150px 1fr 46px;gap:8px;align-items:center;margin:3px 0;font-size:12.5px}
+  .bar .lbl{color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .bar .lbl.win{color:var(--text);font-weight:600}
+  .track{height:9px;background:var(--panel2);border-radius:5px;overflow:hidden;border:1px solid var(--line)}
+  .fill{height:100%;background:var(--blue);border-radius:5px;transition:width .12s}
+  .fill.win{background:var(--accent)}
+  .fill.noul{background:var(--purple)}
+  .num{text-align:right;font-variant-numeric:tabular-nums;color:var(--muted)}
+  .verdict{font-size:18px;font-weight:700;padding:8px 10px;border-radius:8px;margin:6px 0 8px;background:var(--panel2);border:1px solid var(--line)}
+  .verdict.act{color:var(--green);border-color:rgba(34,197,94,.4)}
+  .verdict.wait{color:var(--accent)}
+  .verdict.ignore{color:var(--muted)}
+  .verdict.confirm{color:var(--red);border-color:rgba(239,68,68,.4)}
+  .verdict.disambiguate{color:var(--blue)}
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  td,th{padding:3px 6px;text-align:left;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+  td.pass{color:var(--green)} td.fail{color:var(--red)}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}
+  .el{display:grid;grid-template-columns:34px 68px 1fr;gap:6px;padding:3px 4px;border-radius:6px;font-size:12.5px;align-items:baseline}
+  .el:nth-child(odd){background:rgba(255,255,255,.02)}
+  .el .id{color:var(--accent);font-family:ui-monospace,Menlo,monospace}
+  .el .role{color:var(--muted);font-size:11px}
+  .el.hot{background:rgba(245,158,11,.18);outline:1px solid rgba(245,158,11,.5)}
+  .el.cand{background:rgba(59,130,246,.18)}
+  .el .txt{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .log{font-family:ui-monospace,Menlo,monospace;font-size:12px}
+  .log div{padding:2px 0;border-bottom:1px dashed rgba(255,255,255,.05);white-space:pre-wrap}
+  .log .act{color:var(--green)} .log .error{color:var(--red)} .log .warn{color:var(--accent)} .log .debug{color:#6b7280}
+  .kv{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;font-size:12.5px}
+  .kv dt{color:var(--muted)} .kv dd{margin:0;word-break:break-all}
+  .small{font-size:12px;color:var(--muted)}
+  .dot{width:10px;height:10px;border-radius:50%;background:#4b5563;display:inline-block}
+  .dot.on{background:var(--red);box-shadow:0 0 0 4px rgba(239,68,68,.25);animation:pulse 1.2s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(239,68,68,.45)}100%{box-shadow:0 0 0 8px rgba(239,68,68,0)}}
+  .badge{display:inline-block;min-width:20px;text-align:center;background:var(--blue);color:#fff;border-radius:999px;font-weight:700;font-size:12px;padding:1px 6px}
+  #pending{color:var(--red);font-weight:600}
+</style>
+</head>
+<body>
+<header>
+  <h1><span>●</span> jev-voice-browser-zh <span class="small" style="color:var(--muted);font-weight:400">— Jev 决策,Playwright 执行</span></h1>
+  <span class="pill">模型 <b id="model">–</b></span>
+  <span class="pill">最近 <b id="lat">–</b> ms · p50 <b id="p50">–</b> ms</span>
+  <span class="pill">调用 <b id="calls">0</b> · 动作 <b id="actions">0</b></span>
+  <span class="pill">费用 <b id="cost">$0.000000</b></span>
+  <span class="pill" title="平均:最后一个词 → 决策 / → 动作完成(含页面加载)">词→决策 <b id="c2d">–</b> ms · →完成 <b id="c2a">–</b> ms</span>
+  <div class="spacer"></div>
+  <span class="pill" id="ws">连接中…</span>
+</header>
+
+<main>
+  <!-- LEFT: speech -->
+  <div class="col">
+    <div class="card">
+      <h2><span class="dot" id="micdot"></span> 麦克风 <span class="r small" id="micstate">关</span></h2>
+      <div id="transcript"><span class="interim">试着说“打开维基百科”…</span></div>
+      <div class="row" style="margin-top:10px">
+        <button class="primary" id="micbtn">开始收音</button>
+        <button id="undo">撤销 / 返回</button>
+        <button id="resnap">重扫页面</button>
+      </div>
+      <form id="cmdform" class="row" style="margin-top:10px">
+        <input type="text" id="cmd" placeholder="…或在此输入命令后回车(无麦克风时的兜底)" autocomplete="off" />
+        <button type="submit">执行</button>
+      </form>
+      <div id="pending" class="small" style="margin-top:8px"></div>
+      <div class="small" style="margin-top:6px">麦克风需要 Chrome/Edge(Web Speech API)。说话时中间转写会流式发给服务器;每次更新 = 一次 Jev 请求(过期的会被取消)。</div>
+    </div>
+
+    <div class="card grow">
+      <h2>动作日志</h2>
+      <div class="log grow" id="log"></div>
+    </div>
+  </div>
+
+  <!-- MIDDLE: decision -->
+  <div class="col">
+    <div class="card grow">
+      <h2>Jev 决策 <span class="r small" id="decmeta">–</span></h2>
+      <div id="verdict" class="verdict wait">等待语音…</div>
+      <div class="small" style="margin-bottom:6px">策略门(值 vs 阈值):</div>
+      <table id="reasons"><thead><tr><th>门</th><th>值</th><th>阈值</th><th>说明</th></tr></thead><tbody></tbody></table>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:12px">
+        <div>
+          <h2>意图 <span class="r small" id="intentconf"></span></h2>
+          <div id="intent"></div>
+          <h2 style="margin-top:12px">是/否信号</h2>
+          <div id="nouls"></div>
+          <h2 style="margin-top:12px">滚动幅度</h2>
+          <div id="scroll"></div>
+        </div>
+        <div>
+          <h2>目标元素 <span class="r small" id="targetconf"></span></h2>
+          <div id="target"></div>
+          <h2 style="margin-top:12px">站点</h2>
+          <div id="site"></div>
+          <h2 style="margin-top:12px">输入/搜索文字(逐字候选)</h2>
+          <div id="spans"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT: page -->
+  <div class="col">
+    <div class="card">
+      <h2>受控页面 <span class="r small" id="tabs"></span></h2>
+      <dl class="kv">
+        <dt>网址</dt><dd id="url" class="mono">–</dd>
+        <dt>标题</dt><dd id="title">–</dd>
+        <dt>站点</dt><dd id="site-name">–</dd>
+        <dt>搜索框</dt><dd id="sbox" class="mono">–</dd>
+      </dl>
+    </div>
+    <div class="card grow">
+      <h2>发给 Jev 的元素 <span class="r small" id="elcount"></span></h2>
+      <div class="grow" id="elements"></div>
+    </div>
+  </div>
+</main>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const fmt = (x, d = 2) => (x == null ? "–" : Number(x).toFixed(d));
+  let ws;
+  let ui = null;
+  let hotIds = new Set();
+  let candIds = new Set();
+
+  // ------------------------------------------------------------ websocket
+  function connect() {
+    ws = new WebSocket(`ws://${location.host}`);
+    ws.onopen = () => { $("ws").textContent = "已连接"; };
+    ws.onclose = () => { $("ws").textContent = "已断开 — 重连中"; setTimeout(connect, 1000); };
+    ws.onmessage = (ev) => {
+      const { type, payload } = JSON.parse(ev.data);
+      switch (type) {
+        case "hello": ui = payload; renderAll(); break;
+        case "transcript": renderTranscript(payload); break;
+        case "decision": renderDecision(payload); break;
+        case "action": ui = payload.ui; renderStats(); renderSnapshot(); break;
+        case "snapshot": ui && (ui.snapshot = payload); renderSnapshot(); break;
+        case "log": appendLog(payload); break;
+        case "candidates": candIds = new Set((payload || []).map((c) => c.id)); renderSnapshot(); break;
+        case "pending": $("pending").textContent = payload ? `⚠ 待确认:${payload.summary} — 说"确认"或"取消"` : ""; break;
+        case "tabs": $("tabs").textContent = `${payload.length} 个标签页`; break;
+      }
+    };
+  }
+  const send = (obj) => ws && ws.readyState === 1 && ws.send(JSON.stringify(obj));
+
+  // ------------------------------------------------------------ render
+  function renderAll() {
+    $("model").textContent = ui.model;
+    renderStats(); renderSnapshot();
+    $("log").innerHTML = "";
+    (ui.log || []).forEach(appendLog);
+    if (ui.lastDecision) renderDecision(ui.lastDecision);
+    if (ui.pending) $("pending").textContent = `⚠ 待确认:${ui.pending.summary} — 说"确认"或"取消"`;
+  }
+  function renderStats() {
+    const s = ui.stats;
+    $("lat").textContent = s.lastLatencyMs ?? "–";
+    $("p50").textContent = s.p50LatencyMs ?? "–";
+    $("calls").textContent = s.calls;
+    $("actions").textContent = s.actions;
+    $("cost").textContent = "$" + s.costUsd.toFixed(6);
+    $("c2a").textContent = s.avgCommandToActionMs ?? "–";
+    $("c2d").textContent = s.avgDecisionMs ?? "–";
+    $("model").textContent = ui.model;
+  }
+  function renderSnapshot() {
+    const sn = ui && ui.snapshot; if (!sn) return;
+    $("url").textContent = sn.url; $("title").textContent = sn.title || "–"; $("site-name").textContent = sn.site;
+    $("sbox").textContent = sn.searchBoxId || "无";
+    $("elcount").textContent = `${sn.elements.length}`;
+    if (sn.tabs) $("tabs").textContent = `${sn.tabs.length} 个标签页`;
+    const rows = sn.elements.map((e) => {
+      const cls = hotIds.has(e.id) ? " hot" : candIds.has(e.id) ? " cand" : "";
+      return `<div class="el${cls}"><span class="id">${e.id}</span><span class="role">${e.role}${e.below_fold ? " ↓" : ""}</span><span class="txt" title="${esc(e.href || "")}">${esc(e.text || e.placeholder || "")}</span></div>`;
+    });
+    $("elements").innerHTML = rows.join("");
+    const hot = $("elements").querySelector(".hot"); if (hot) hot.scrollIntoView({ block: "center" });
+  }
+  function renderTranscript(p) {
+    const el = $("transcript");
+    el.className = p.actedOn ? "acted" : "";
+    el.innerHTML = p.final ? esc(p.text) : `${esc(p.text)} <span class="interim">…</span>`;
+  }
+  function bars(container, probs, winner, opts = {}) {
+    const entries = Object.entries(probs || {}).sort((a, b) => b[1] - a[1]).slice(0, opts.max || 7);
+    container.innerHTML = entries.map(([k, p]) => {
+      const win = k === winner;
+      const label = opts.labels ? (opts.labels[k] || k) : k;
+      return `<div class="bar"><span class="lbl${win ? " win" : ""}" title="${esc(label)}">${esc(label)}</span><div class="track"><div class="fill${win ? " win" : ""}${opts.noul ? " noul" : ""}" style="width:${Math.round(p * 100)}%"></div></div><span class="num">${fmt(p)}</span></div>`;
+    }).join("");
+  }
+  function renderDecision(d) {
+    const a = d.answers, pol = d.policy;
+    $("decmeta").textContent = `${d.latencyMs} ms · ${d.questionCount} 个问题 · ${d.usage?.input_tokens ?? "?"} tokens · $${(d.costUsd || 0).toFixed(6)} · ${d.trigger}`;
+    const VERDICT_LABELS = { act: "执行", wait: "等待", ignore: "忽略", confirm: "需确认", cancel: "已取消", disambiguate: "消歧" };
+    const v = $("verdict"); v.className = `verdict ${pol.decision}`;
+    v.textContent = `${VERDICT_LABELS[pol.decision] || pol.decision} — ${pol.summary}` + (d.silentMs > 500 ? ` (沉默 ${d.silentMs}ms)` : "");
+    $("reasons").querySelector("tbody").innerHTML = (pol.reasons || []).map((r) =>
+      `<tr><td>${esc(r.name)}</td><td class="${r.pass ? "pass" : "fail"}">${esc(String(r.value))}</td><td>${esc(String(r.threshold))}</td><td class="small">${esc(r.note || "")}</td></tr>`).join("");
+
+    $("intentconf").textContent = `置信度 ${fmt(a.intent?.confidence)}`;
+    bars($("intent"), a.intent?.probabilities, a.intent?.choice);
+
+    const labels = {}; (ui?.snapshot?.elements || []).forEach((e) => (labels[e.id] = `${e.id} ${e.text || e.placeholder || e.role}`));
+    labels.none = "无";
+    $("targetconf").textContent = `置信度 ${fmt(a.target?.confidence)}`;
+    bars($("target"), a.target?.probabilities, a.target?.choice, { labels, max: 6 });
+    hotIds = new Set(Object.entries(a.target?.probabilities || {}).filter(([k, p]) => k !== "none" && p >= 0.15).map(([k]) => k));
+    renderSnapshot();
+
+    const NOUL_LABELS = { is_command: "是命令", complete: "已说完", destructive: "危险" };
+    const nouls = { is_command: a.is_command?.noul, complete: a.complete?.noul, destructive: a.destructive?.noul };
+    $("nouls").innerHTML = Object.entries(nouls).map(([k, p]) =>
+      `<div class="bar"><span class="lbl">${NOUL_LABELS[k] || k}</span><div class="track"><div class="fill noul" style="width:${Math.round((p || 0) * 100)}%"></div></div><span class="num">${fmt(p)}</span></div>`).join("");
+
+    if (a.scroll_amount) bars($("scroll"), a.scroll_amount.probabilities, String(Math.round(a.scroll_amount.score)), { labels: { 0: "一点", 1: "一页", 2: "到底" } });
+    bars($("site"), a.site?.probabilities, a.site?.choice, { max: 5 });
+
+    let spans = "";
+    if (a.text_span) spans += `<div class="small">text_span(输入/搜索文字)</div>` + barsHtml(a.text_span.probabilities, a.text_span.choice);
+    if (a.url_span) spans += `<div class="small">url_span(口播网址)</div>` + barsHtml(a.url_span.probabilities, a.url_span.choice);
+    $("spans").innerHTML = spans || `<div class="small">转写中没有文字/网址候选</div>`;
+  }
+  function barsHtml(probs, winner) {
+    const tmp = document.createElement("div"); bars(tmp, probs, winner, { max: 6 }); return tmp.innerHTML;
+  }
+  function appendLog(e) {
+    const div = document.createElement("div");
+    div.className = e.level;
+    const t = new Date(e.t).toLocaleTimeString([], { hour12: false });
+    div.textContent = `${t} ${e.msg}`;
+    const log = $("log"); log.appendChild(div);
+    while (log.children.length > 150) log.removeChild(log.firstChild);
+    log.scrollTop = log.scrollHeight;
+  }
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  // ------------------------------------------------------------ controls
+  $("cmdform").addEventListener("submit", (ev) => {
+    ev.preventDefault();
+    const text = $("cmd").value.trim(); if (!text) return;
+    send({ type: "command", text });
+    renderTranscript({ text, final: true, actedOn: false });
+    $("cmd").value = "";
+  });
+  $("undo").onclick = () => send({ type: "undo" });
+  $("resnap").onclick = () => send({ type: "snapshot" });
+
+  // ------------------------------------------------------------ speech
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  let rec = null, micOn = false, utteranceBase = 0;
+  function startMic() {
+    if (!SR) { alert("此浏览器不支持 Web Speech API。请使用 Chrome 或 Edge,或在下方输入命令。"); return; }
+    rec = new SR();
+    rec.continuous = true; rec.interimResults = true; rec.lang = "zh-CN"; rec.maxAlternatives = 1;
+    rec.onresult = (ev) => {
+      // ev.resultIndex 之前的结果已结束。每个 result 索引是独立的一息语句。
+      for (let i = ev.resultIndex; i < ev.results.length; i++) {
+        const r = ev.results[i];
+        const text = r[0].transcript;
+        send({ type: "transcript", text, final: r.isFinal, utteranceId: `u${utteranceBase}-${i}` });
+      }
+    };
+    rec.onerror = (e) => { $("micstate").textContent = "错误:" + e.error; if (e.error === "not-allowed") stopMic(); };
+    rec.onend = () => { if (micOn) { utteranceBase += 1; try { rec.start(); } catch {} } };
+    rec.start();
+    micOn = true; $("micdot").classList.add("on"); $("micstate").textContent = "收音中"; $("micbtn").textContent = "停止收音"; $("micbtn").classList.remove("primary");
+  }
+  function stopMic() {
+    micOn = false; try { rec && rec.stop(); } catch {}
+    $("micdot").classList.remove("on"); $("micstate").textContent = "关"; $("micbtn").textContent = "开始收音"; $("micbtn").classList.add("primary");
+  }
+  $("micbtn").onclick = () => (micOn ? stopMic() : startMic());
+
+  connect();
+})();
+</script>
+</body>
+</html>

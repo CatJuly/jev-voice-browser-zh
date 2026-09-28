@@ -1,0 +1,18 @@
+{
+  "url": "https://example.com/",
+  "title": "Example Domain",
+  "site": "example_com",
+  "scrollY": 0,
+  "scrollHeight": 900,
+  "viewportHeight": 900,
+  "searchBoxId": null,
+  "elements": [
+    {
+      "id": "e01",
+      "role": "link",
+      "text": "Learn more",
+      "href": "iana.org/domains/example"
+    }
+  ],
+  "rawCount": 1
+}

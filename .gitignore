@@ -1,0 +1,9 @@
+node_modules/
+.browser-profile/
+.env
+.env.*
+!.env.example
+*.log
+test-results/
+.browser-profile*/
+.claude/

@@ -1,0 +1,732 @@
+{
+  "url": "https://news.ycombinator.com/",
+  "title": "Hacker News",
+  "site": "hacker_news",
+  "scrollY": 0,
+  "scrollHeight": 1217,
+  "viewportHeight": 900,
+  "searchBoxId": "e229",
+  "elements": [
+    {
+      "id": "e02",
+      "role": "link",
+      "text": "Hacker News",
+      "href": "news.ycombinator.com/news"
+    },
+    {
+      "id": "e03",
+      "role": "link",
+      "text": "new",
+      "href": "news.ycombinator.com/newest"
+    },
+    {
+      "id": "e04",
+      "role": "link",
+      "text": "past",
+      "href": "news.ycombinator.com/front"
+    },
+    {
+      "id": "e05",
+      "role": "link",
+      "text": "comments",
+      "href": "news.ycombinator.com/newcomments"
+    },
+    {
+      "id": "e06",
+      "role": "link",
+      "text": "ask",
+      "href": "news.ycombinator.com/ask"
+    },
+    {
+      "id": "e07",
+      "role": "link",
+      "text": "show",
+      "href": "news.ycombinator.com/show"
+    },
+    {
+      "id": "e08",
+      "role": "link",
+      "text": "jobs",
+      "href": "news.ycombinator.com/jobs"
+    },
+    {
+      "id": "e09",
+      "role": "link",
+      "text": "submit",
+      "href": "news.ycombinator.com/submit"
+    },
+    {
+      "id": "e10",
+      "role": "link",
+      "text": "login",
+      "href": "news.ycombinator.com/login"
+    },
+    {
+      "id": "e12",
+      "role": "link",
+      "text": "One Year of Sponsored Servo Development",
+      "href": "servo.org/blog/2026/09/15/one-year-of-sponsorship/"
+    },
+    {
+      "id": "e13",
+      "role": "link",
+      "text": "servo.org",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e14",
+      "role": "link",
+      "text": "AshleysBrain",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e15",
+      "role": "link",
+      "text": "3 hours ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e16",
+      "role": "link",
+      "text": "hide",
+      "href": "news.ycombinator.com/hide"
+    },
+    {
+      "id": "e17",
+      "role": "link",
+      "text": "46 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e19",
+      "role": "link",
+      "text": "GLM Built Its Own Inference Infrastructure",
+      "href": "z.ai/blog/glm-built-its-inference-infrastructure"
+    },
+    {
+      "id": "e20",
+      "role": "link",
+      "text": "z.ai",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e21",
+      "role": "link",
+      "text": "whiteros_e",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e22",
+      "role": "link",
+      "text": "2 hours ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e24",
+      "role": "link",
+      "text": "55 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e26",
+      "role": "link",
+      "text": "Nvidia announces native GPU programming in Rust",
+      "href": "developer.nvidia.com/blog/introducing-cuda-rust-t…"
+    },
+    {
+      "id": "e27",
+      "role": "link",
+      "text": "nvidia.com",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e28",
+      "role": "link",
+      "text": "nonmaskable",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e29",
+      "role": "link",
+      "text": "14 hours ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e31",
+      "role": "link",
+      "text": "299 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e33",
+      "role": "link",
+      "text": "Keys Not Included: recovering the signing keys for US drive…",
+      "href": "ryan.science/blog/keys-not-included"
+    },
+    {
+      "id": "e34",
+      "role": "link",
+      "text": "ryan.science",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e35",
+      "role": "link",
+      "text": "Ryan5453",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e36",
+      "role": "link",
+      "text": "8 hours ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e38",
+      "role": "link",
+      "text": "70 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e40",
+      "role": "link",
+      "text": "My temporary PHP fix from 2014 has nearly 20M installs. Tod…",
+      "href": "jakeasmith.com/blog/http-build-url/"
+    },
+    {
+      "id": "e41",
+      "role": "link",
+      "text": "jakeasmith.com",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e42",
+      "role": "link",
+      "text": "jakeasmith",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e43",
+      "role": "link",
+      "text": "6 hours ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e45",
+      "role": "link",
+      "text": "31 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e47",
+      "role": "link",
+      "text": "The Relation Between Mathematics and Physics by Paul Dirac",
+      "href": "damtp.cam.ac.uk/events/strings02/dirac/speach.html"
+    },
+    {
+      "id": "e48",
+      "role": "link",
+      "text": "cam.ac.uk",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e49",
+      "role": "link",
+      "text": "rramadass",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e50",
+      "role": "link",
+      "text": "5 hours ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e52",
+      "role": "link",
+      "text": "21 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e54",
+      "role": "link",
+      "text": "Better Vector Search for Long Documents: Chunking Inside Ma…",
+      "href": "manticoresearch.com/blog/auto-chunking/"
+    },
+    {
+      "id": "e55",
+      "role": "link",
+      "text": "manticoresearch.com",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e56",
+      "role": "link",
+      "text": "GloriaVinogrado",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e57",
+      "role": "link",
+      "text": "51 minutes ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e59",
+      "role": "link",
+      "text": "discuss",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e61",
+      "role": "link",
+      "text": "Neovim have a ~$800k Bitcoin donation sitting untouched sin…",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e62",
+      "role": "link",
+      "text": "jakemanger",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e63",
+      "role": "link",
+      "text": "37 minutes ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e65",
+      "role": "link",
+      "text": "2 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e67",
+      "role": "link",
+      "text": "Training a 4B model to produce 81% faster query plans than…",
+      "href": "rohanbansal.com/qorl"
+    },
+    {
+      "id": "e68",
+      "role": "link",
+      "text": "rohanbansal.com",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e69",
+      "role": "link",
+      "text": "polyphilz",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e70",
+      "role": "link",
+      "text": "16 hours ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e72",
+      "role": "link",
+      "text": "120 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e74",
+      "role": "link",
+      "text": "OpenAI Model Misalignment Report",
+      "href": "openai.com/index/model-misalignment-reporting-fra…"
+    },
+    {
+      "id": "e75",
+      "role": "link",
+      "text": "openai.com",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e76",
+      "role": "link",
+      "text": "qprofyeh",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e77",
+      "role": "link",
+      "text": "4 hours ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e79",
+      "role": "link",
+      "text": "20 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e81",
+      "role": "link",
+      "text": "Online Z3 Guide",
+      "href": "microsoft.github.io/z3guide/"
+    },
+    {
+      "id": "e82",
+      "role": "link",
+      "text": "microsoft.github.io",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e83",
+      "role": "link",
+      "text": "Bluestein",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e84",
+      "role": "link",
+      "text": "1 hour ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e86",
+      "role": "link",
+      "text": "5 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e88",
+      "role": "link",
+      "text": "Lucasart's Afterlife",
+      "href": "togameforlife.wordpress.com/2023/12/09/on-lucasar…"
+    },
+    {
+      "id": "e89",
+      "role": "link",
+      "text": "togameforlife.wordpress.com",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e90",
+      "role": "link",
+      "text": "Bondi_Blue",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e93",
+      "role": "link",
+      "text": "18 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e95",
+      "role": "link",
+      "text": "Xiaomi Mimo 2.6 live post-training dashboard",
+      "href": "mimo.xiaomi.com/rl/"
+    },
+    {
+      "id": "e96",
+      "role": "link",
+      "text": "xiaomi.com",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e97",
+      "role": "link",
+      "text": "krackers",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e98",
+      "role": "link",
+      "text": "15 hours ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e100",
+      "role": "link",
+      "text": "122 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e102",
+      "role": "link",
+      "text": "Comparison of Malloc() Algorithms",
+      "href": "egbert.net/blog/articles/comparison-of-arena-arch…"
+    },
+    {
+      "id": "e103",
+      "role": "link",
+      "text": "egbert.net",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e104",
+      "role": "link",
+      "text": "egberts1",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e105",
+      "role": "link",
+      "text": "7 hours ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e107",
+      "role": "link",
+      "text": "12 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e109",
+      "role": "link",
+      "text": "Small programming tricks",
+      "href": "will-keleher.com/posts/small-programming-tricks-m…"
+    },
+    {
+      "id": "e110",
+      "role": "link",
+      "text": "will-keleher.com",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e111",
+      "role": "link",
+      "text": "signa11",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e112",
+      "role": "link",
+      "text": "19 hours ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e114",
+      "role": "link",
+      "text": "241 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e116",
+      "role": "link",
+      "text": "Backups Aren't Simple",
+      "href": "filipovski.net/2026/09/16/backups-arent-simple.ht…"
+    },
+    {
+      "id": "e117",
+      "role": "link",
+      "text": "filipovski.net",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e118",
+      "role": "link",
+      "text": "afilipovski",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e119",
+      "role": "link",
+      "text": "13 hours ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e121",
+      "role": "link",
+      "text": "155 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e123",
+      "role": "link",
+      "text": "Breaking the 1.58-bit Barrier for Ternary LLMs",
+      "href": "arxiv.org/abs/2609.16338"
+    },
+    {
+      "id": "e124",
+      "role": "link",
+      "text": "arxiv.org",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e125",
+      "role": "link",
+      "text": "matt_d",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e128",
+      "role": "link",
+      "text": "34 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e130",
+      "role": "link",
+      "text": "Developing provably correct Rust code with Verus",
+      "href": "amazon.science/blog/developing-provably-correct-r…"
+    },
+    {
+      "id": "e131",
+      "role": "link",
+      "text": "amazon.science",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e132",
+      "role": "link",
+      "text": "Betelbuddy",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e133",
+      "role": "link",
+      "text": "11 hours ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e137",
+      "role": "link",
+      "text": "A 32-year-old bug walks into a Telnet server",
+      "href": "labs.watchtowr.com/a-32-year-old-bug-walks-into-a…"
+    },
+    {
+      "id": "e138",
+      "role": "link",
+      "text": "watchtowr.com",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e139",
+      "role": "link",
+      "text": "paimapi",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e140",
+      "role": "link",
+      "text": "9 hours ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e142",
+      "role": "link",
+      "text": "27 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e144",
+      "role": "link",
+      "text": "Cloudflare/Security-Audit-Skill",
+      "href": "github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "id": "e145",
+      "role": "link",
+      "text": "github.com/cloudflare",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e146",
+      "role": "link",
+      "text": "donk8r",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e149",
+      "role": "link",
+      "text": "16 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e151",
+      "role": "link",
+      "text": "The engineering behind the US Strategic Petroleum Reserve",
+      "href": "johnjwang.com/post/2026/09/15/engineering-behind-…"
+    },
+    {
+      "id": "e152",
+      "role": "link",
+      "text": "johnjwang.com",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e153",
+      "role": "link",
+      "text": "johnjwang",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e156",
+      "role": "link",
+      "text": "84 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e158",
+      "role": "link",
+      "text": "Show HN: An e-ink frame that hears birds and draws them as…",
+      "href": "github.com/arnegiacomo/fugleramme"
+    },
+    {
+      "id": "e159",
+      "role": "link",
+      "text": "github.com/arnegiacomo",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e160",
+      "role": "link",
+      "text": "arnemunthekaas",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e161",
+      "role": "link",
+      "text": "1 day ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e163",
+      "role": "link",
+      "text": "243 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e165",
+      "role": "link",
+      "text": "AWS says it can't restore some data from mideast facilities…",
+      "href": "wsj.com/world/middle-east/aws-says-it-cant-restor…"
+    },
+    {
+      "id": "e166",
+      "role": "link",
+      "text": "wsj.com",
+      "href": "news.ycombinator.com/from"
+    },
+    {
+      "id": "e167",
+      "role": "link",
+      "text": "berkeleyjunk",
+      "href": "news.ycombinator.com/user"
+    },
+    {
+      "id": "e168",
+      "role": "link",
+      "text": "18 hours ago",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e170",
+      "role": "link",
+      "text": "351 comments",
+      "href": "news.ycombinator.com/item"
+    },
+    {
+      "id": "e172",
+      "role": "link",
+      "text": "HarnessTax: How Much Does the Harness Matter for Coding Age…",
+      "href": "harnesstax.github.io"
+    }
+  ],
+  "rawCount": 229
+}
